@@ -4,7 +4,7 @@ Responsável acadêmico: Guilherme Yamada Dantas — rm568506. Data: 30/10/2026.
 
 ## Inventário e revisão inicial
 
-Enunciado TXT lido integralmente; Cap01 lido integralmente (8 páginas); captura 23.48.40 inspecionada visualmente. A imagem é mapa mental das fases, NÃO tabela de avaliação. A captura posterior de 30/10/2026 às 00.22.18 contém a rubrica: cinco critérios de 2 pontos. A pendência dos pesos foi resolvida com essa fonte. Cap02, Cap03, Cap08 e Cap09 orientam implementação, sem redistribuir ebooks pessoais nem exemplos contendo credenciais.
+Enunciado TXT lido integralmente; Cap01 lido integralmente (8 páginas); captura 23.48.40 inspecionada visualmente. A imagem é mapa mental das fases, NÃO tabela de avaliação. Cap02, Cap03, Cap08 e Cap09 orientam implementação, sem redistribuir ebooks pessoais nem exemplos contendo credenciais.
 
 Repositório público indicado foi inspecionado com gh e git ls-remote e clonado vazio. Diretório exclusivo CardioIAConectadaCap1. EnterpriseChallengeSPRINT1 e QUIZ não são alvos de escrita.
 
@@ -12,7 +12,7 @@ Template consultado: CaiqueFiap-2026/TEMPLATE-TIAO-2026, commit 53ced5ec91571e06
 
 ## Etapas e critérios de passagem
 
-1. Inventário e requisitos: revisão concluída; pesos confirmados pela captura posterior.
+1. Inventário e requisitos: revisão concluída.
 2. Firmware: revisar circuito, coleta, limite de fila, falhas e reconexão; compilar e testar buffer.
 3. MQTT/Node-RED: importar fluxo, executar broker e publisher de teste, conferir gráfico/gauge/alerta e rejeição de dados inválidos. Teste de host não prova ESP32/Wokwi.
 4. Ir Além 1: testar HTTP real local, regras de risco e arquivos de e-mail simulados; nenhum envio real.
@@ -41,20 +41,3 @@ Template consultado: CaiqueFiap-2026/TEMPLATE-TIAO-2026, commit 53ced5ec91571e06
 | A2-04 | Ir Além solicitado | vídeo <=4min não listado + README | roteiro; gravação humana e URL pendentes |
 
 Ir Além é extensão opcional do enunciado, mas integra o escopo explicitamente solicitado. Dados exclusivamente sintéticos; DHT22 representa temperatura ambiental, não mede temperatura corporal clinicamente. Limiares são regras didáticas, não diagnóstico.
-
-## Rubrica confirmada e evidências
-
-Fonte: captura fornecida pelo usuário em 30/10/2026 às 00.22.18, inventariada por SHA-256. Os pesos abaixo transcrevem a tabela da atividade; o atendimento técnico é uma avaliação interna baseada em evidências, não nota atribuída pela FIAP.
-
-| Critério oficial | Pontos possíveis | Evidências existentes | Revisão técnica |
-|---|---:|---|---|
-| Leitura de sensores | 2 | `firmware/sketch.ino`, `firmware/diagram.json`, `evidence/wokwi-final-serial.txt` e `evidence/wokwi-final-mqtt.jsonl`: DHT22 e MPU6050 com leituras válidas | Demonstrado em simulação; BPM é controle sintético adicional |
-| Implementação de resiliência offline (Edge Computing) | 2 | Serial final: comando 0, coleta das sequências 8–11 e fila de quatro amostras; comando 1 e reenvio. `firmware/evidence/host-buffer-test.txt`: limite de 2.000 e descarte por saturação | Demonstrado; RAM volátil e limite de QoS 0 documentados |
-| Envio via MQTT e integração com broker | 2 | `evidence/wokwi-final-mqtt.jsonl`, `evidence/wokwi-final-alert-state.json`, `evidence/mqtt-public.json` | Recepção real via broker público, com evidência Wokwi separada do publisher host |
-| Dashboard funcional e alertas automáticos | 2 | `dashboard/flows.json`, `evidence/dashboard-wokwi-final.png`, testes MQTT e snapshots de alerta | Gráfico, gauge e alerta demonstrados |
-| Documentação clara (código + relatórios) | 2 | README, código comentado, relatórios Edge/MQTT e `evidence/pdf-qa.json`; documentação dos Ir Além adicional | Artefatos produzidos e revisados tecnicamente; clareza acadêmica sujeita à avaliação humana |
-| **Total possível** | **10** | Cobertura documental dos cinco critérios | **Não equivale a nota 10 garantida** |
-
-A rubrica afirma que SPIFFS não será computado devido à limitação dos simuladores; implementá-lo em chip real é considerado ir além. Portanto, a ausência de SPIFFS nesta solução simulada não é uma lacuna dessa pontuação. Os desafios REST/e-mail e IA continuam como extensões solicitadas; não há peso adicional indicado nessa tabela e não se presume bônus.
-
-A rubrica complementa o enunciado e não elimina seus entregáveis: link Wokwi, códigos, export/prints e relatórios. O vídeo não listado de até quatro minutos permanece pendente no Ir Além 2, junto com revisão humana e submissão.

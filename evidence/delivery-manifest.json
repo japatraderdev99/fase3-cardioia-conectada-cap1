@@ -14,8 +14,8 @@
       "sha256": "1644604554b8fd6ecd4a284a0e4acf12520bcd70ff61b7eedeacbdacc5100199"
     },
     "README.md": {
-      "bytes": 6146,
-      "sha256": "f168f26dba6173f4655cf746f4ece770b548f861f30edb1f8f5eb2a876a136ee"
+      "bytes": 5907,
+      "sha256": "8da35692ff1ba6a88cb88d48f249ba25e2312bce49768617ffeb6580420bd373"
     },
     "dashboard/flows.json": {
       "bytes": 9684,
@@ -50,8 +50,8 @@
       "sha256": "9254b0d5985b3dfa13d74b7ae3305386db700558e971a3ef97320a4716014520"
     },
     "docs/inventario-fontes.json": {
-      "bytes": 1034,
-      "sha256": "f2c19d2bc0812b6fb7057ecc0db182a56b931c771cee6a9256cb33961e360d77"
+      "bytes": 805,
+      "sha256": "e0593ae2a180299b44b8c2e98a9722c3bb42de288ddfaeddfe4392eb820baa41"
     },
     "docs/logo-fiap.png": {
       "bytes": 28757,
@@ -62,12 +62,12 @@
       "sha256": "b1d7957c79dd335a407122a9d2be7d76dc1f325088117dfde2ca7aa880e38a59"
     },
     "docs/plano-e-requisitos.md": {
-      "bytes": 6292,
-      "sha256": "8704f3b17ddf9d654fc74edf80264f5e6022285478bb5b51f86b43579c0c3629"
+      "bytes": 3708,
+      "sha256": "dd435fb097ce366bc342b70a755b26715ab733667e66e76773093461fd2ecc99"
     },
     "docs/proveniencia.md": {
-      "bytes": 1839,
-      "sha256": "e966ac8240cb9db8a15f0bfc2e6b7e035e0af5f09f5d978f9a9738a11b9bc5f9"
+      "bytes": 1569,
+      "sha256": "262fb61b3fdb7ee151f67bc1e2c7bd11f423bb1e44d6279b0b90ec63d1dd0ef8"
     },
     "docs/rest/evidence/20261030T030625272196Z/data/outbox/20261030T030625278979-alerta.eml": {
       "bytes": 572,
@@ -90,8 +90,8 @@
       "sha256": "5873beb81cde5779ea7a671e93f773360db852dc507380873d0174db34a711fb"
     },
     "docs/revisao-final.md": {
-      "bytes": 4849,
-      "sha256": "bd01d8371e6f6f668c0e31eede77565939eeedc8b213ce4468bdf6143a47ef32"
+      "bytes": 4449,
+      "sha256": "3c3e9d29af97a0e80361e183be811abed7128a08064f49d07750b4b0e91f3d7b"
     },
     "docs/roteiro-demonstracao.md": {
       "bytes": 1535,
@@ -385,6 +385,5 @@
       "bytes": 2039,
       "sha256": "50abaa20ad3905772858aac4cc6cfe46fee3d13d8835fc4984cb86642d0ca001"
     }
-  },
-  "revision_note": "Rubrica de avaliação incorporada em 30/10/2026; código e PDFs inalterados."
+  }
 }

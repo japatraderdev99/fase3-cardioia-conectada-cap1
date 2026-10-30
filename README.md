@@ -26,7 +26,7 @@ Demonstrar captura → fila limitada no ESP32 → MQTT → dashboard Node-RED �
 | Vídeo YouTube não listado, até 4 minutos | Pendente de gravação/publicação humana; [roteiro](docs/roteiro-demonstracao.md) |
 | Revisão humana e envio ao Portal do Aluno | Pendentes |
 
-Os testes MQTT citados usam publisher Node.js no computador; a execução ESP32/Wokwi tem evidências separadas. Consulte a [revisão final](docs/revisao-final.md) para o estado da simulação. A rubrica fornecida posteriormente confirma cinco critérios de 2 pontos, totalizando 10. Veja a [matriz de avaliação e evidências](docs/plano-e-requisitos.md#rubrica-confirmada-e-evidências). SPIFFS não é computado nos simuladores.
+Os testes MQTT citados usam publisher Node.js no computador; a execução ESP32/Wokwi tem evidências separadas. Consulte a [revisão final](docs/revisao-final.md) para o estado da simulação.
 
 ## Tecnologias e conteúdos abordados
 

@@ -4,7 +4,7 @@ Guilherme Yamada Dantas — rm568506. 30/10/2026.
 
 ## Revisões por etapa
 
-1. Requisitos: TXT integral e Cap01 lidos; imagem verificada como mapa mental. Matriz diferencia obrigatório, SPIFFS/Grafana opcionais e Ir Além solicitado. Rubrica recebida posteriormente (captura de 30/10 às 00.22.18): cinco critérios de 2 pontos, relacionados às evidências na matriz; SPIFFS não computado nos simuladores.
+1. Requisitos: TXT integral e Cap01 lidos; imagem verificada como mapa mental. Matriz diferencia obrigatório, SPIFFS/Grafana opcionais e Ir Além solicitado.
 2. Edge: circuito com dois sensores distintos; fila limitada, política de perdas, mutex e isolamento de rede revisados. Testes C++ exercitam FIFO, wrap, 10.000 inserções/8.000 descartes e proteção de mensagem em trânsito. Compilação ESP32 real aprovada (RAM estática 93.380 bytes, flash 785.065 bytes).
 3. MQTT: testes reais no broker local e público, com 18 mensagens aceitas em cada execução final e rejeições verificadas. Dashboard exportado e inspecionado visualmente. Revisão independente encontrou validação incompleta, identidade sem dispositivo, regressão de sequência e teste sensível à latência. Correções: contrato completo, chave device/session/seq, rejeição de regressão, idade da amostra com indicação BACKLOG, polling correlacionado e fechamento do cliente em finally.
 4. REST: sete testes HTTP reais, SQLite e arquivos MIME; sem SMTP. Verificadas idempotência, fronteiras, erros e recuperação após reinício. Não há ponte MQTT→REST presumida.
@@ -36,5 +36,3 @@ Gravar apresentação <=4 minutos, publicar no YouTube como não listado e inser
 ## Fechamento técnico
 
 A checagem de artefatos passou: links internos, JSON, hashes do experimento, notebook sem erros, partições disjuntas, equivalência SHA-256 do sketch Web e origem Wokwi observada. Testes REST (7) e IA (4) repetidos pelo integrador passaram. Uma tentativa no runtime PDF falhou por ausência de sklearn; foi preservada, e o teste foi repetido com o Python 3.12 do experimento. Serviços temporários MQTT/Node-RED foram encerrados ao final.
-
-Atualização da rubrica: os cinco critérios têm evidências técnicas identificadas, sem atribuição de nota ou presunção de aprovação acadêmica. Nenhuma alteração funcional foi necessária por essa confirmação.
