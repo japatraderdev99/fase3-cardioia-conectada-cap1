@@ -29,9 +29,11 @@ A execução final (sessão f0da5c87) está nos arquivos evidence/wokwi-final-*:
 - REST e IA têm produtores próprios sintéticos e não são alimentados automaticamente pelo firmware.
 - IA: uma distribuição e semente, sem evidência clínica, energética ou de implantação embarcada.
 
-## Pendências humanas
+## Apresentação e entrega
 
-Gravar apresentação <=4 minutos, publicar no YouTube como não listado e inserir URL verificada no README; revisar academicamente conteúdo e autoria assistida; realizar submissão no Portal do Aluno. Código e evidências técnicas não substituem essas etapas.
+Apresentação editada e revisada, com 3min07s, publicada como não listada no canal Guilherme Dantas: https://youtu.be/uBMAaqeuFoI . Reprodução e opção 1080p verificadas; link incluído no README.
+
+A entrega reúne firmware e circuito, export do Node-RED, evidências, cliente/API REST, notebook executado e quatro relatórios PDF. Gravações e vídeo editado permanecem fora do Git e do pacote de entrega. Falta realizar o envio no Portal do Aluno.
 
 ## Fechamento técnico
 

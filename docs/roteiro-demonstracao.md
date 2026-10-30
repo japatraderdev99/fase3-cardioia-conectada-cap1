@@ -1,6 +1,6 @@
 # Roteiro de demonstração — até 4 minutos
 
-Guilherme Yamada Dantas, RM rm568506. Tempo alvo: 3min45s. Gravar somente após ensaio real e revisão dos resultados. Não ler como se testes pendentes tivessem passado.
+Guilherme Yamada Dantas, RM rm568506. Roteiro de referência. A apresentação final tem 3min07s: https://youtu.be/uBMAaqeuFoI .
 
 | Tempo | Tela e fala sugerida |
 |---|---|
@@ -12,4 +12,4 @@ Guilherme Yamada Dantas, RM rm568506. Tempo alvo: 3min45s. Gravar somente após 
 | 2:30–3:25 | Notebook: 1.200 séries, split 720/240/240, logística vs banco LIF com readout; F1 0,8509 vs 0,7595. Mostrar matriz de confusão, reconhecer menor desempenho LIF. |
 | 3:25–3:45 | Limitações: sintético, uma semente, sem validação clínica/energia; apontar repositório e relatórios. |
 
-Publicar no YouTube como **não listado**, verificar duração <=4min e acesso pelo link, e só então substituir a pendência no README. A gravação, upload, URL, revisão humana e submissão FIAP não são realizados por este roteiro.
+Vídeo publicado como **não listado**, com link no README. A edição final reúne os trechos acima com legendas na tela.
