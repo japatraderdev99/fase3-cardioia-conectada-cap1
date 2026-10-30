@@ -1,0 +1,67 @@
+{
+  "executed_at_utc": "2026-10-30T03:06:25.278809+00:00",
+  "python": "3.12.1",
+  "transport": "HTTP over loopback socket",
+  "email_mode": "local .eml only; no SMTP",
+  "synthetic_only": true,
+  "responses": [
+    {
+      "method": "POST",
+      "status": 201,
+      "body": {
+        "sample_id": "20261030T030625278979-normal",
+        "synthetic": true,
+        "timestamp": "2026-10-30T03:06:25.278977+00:00",
+        "bpm": 72,
+        "temperature_c": 25,
+        "alerts": [],
+        "email_status": "not_required"
+      }
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "body": {
+        "sample_id": "20261030T030625278979-normal",
+        "synthetic": true,
+        "timestamp": "2026-10-30T03:06:25.278977+00:00",
+        "bpm": 72,
+        "temperature_c": 25,
+        "alerts": [],
+        "email_status": "not_required"
+      }
+    },
+    {
+      "method": "POST",
+      "status": 201,
+      "body": {
+        "sample_id": "20261030T030625278979-alerta",
+        "synthetic": true,
+        "timestamp": "2026-10-30T03:06:25.278977+00:00",
+        "bpm": 135,
+        "temperature_c": 39,
+        "alerts": [
+          "bpm_acima_120",
+          "temperatura_acima_38"
+        ],
+        "email_status": "simulated_file"
+      }
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "body": {
+        "sample_id": "20261030T030625278979-alerta",
+        "synthetic": true,
+        "timestamp": "2026-10-30T03:06:25.278977+00:00",
+        "bpm": 135,
+        "temperature_c": 39,
+        "alerts": [
+          "bpm_acima_120",
+          "temperatura_acima_38"
+        ],
+        "email_status": "simulated_file"
+      }
+    }
+  ]
+}

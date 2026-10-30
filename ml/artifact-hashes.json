@@ -1,0 +1,15 @@
+{
+  "ml/.gitignore": "0a9471305a5999f385e2cf4d806f7092ab94e1eaf035b883884c2afa77700223",
+  "ml/README.md": "a09660a6718bd8939148639b2f6a399f6eb579375cdf5aec70bc26d4b1f17759",
+  "ml/comparacao_logistica_lif.ipynb": "cea04534c3a41fb25e7a27abf3f9fee6ade8e370ca4ad11ed9e0b05dd210f0b5",
+  "ml/experiment.py": "137ef303036024e29b311b4e6da2a34b18d9f0754d48f3c9ebe8226cce7e996c",
+  "ml/requirements.txt": "ca5a76b7c205577c98c34fea6c48385d205b3045fe0c7349d18deb5994dd1430",
+  "ml/results/lif_spikes.png": "c595200f25331cf0f51c7b04c552392b7e074c44b5e4c01fe117aa6945092342",
+  "ml/results/metrics.json": "c96ebac2586aa284314fb5c0089a6d1f5a618bb9d27a78d1da8528b52c9e4040",
+  "ml/results/predictions.csv": "97aaad8a4738a3b62b3d3f5c051f04d33580160bb3096048b4a08184c9798d0a",
+  "ml/results/synthetic_examples.png": "f0f7c6dd1fd5da2489cb5f5887279abf7c13c4198b7aafd4d5785f13b02bfdbe",
+  "ml/results/synthetic_series.npz": "c2122c138ecee35f0940e9f3749bb792464a3b5c8b184585c2d12bec601a57c9",
+  "ml/results-run.log": "fb22f4109a1c054b9142e6259c140f64cde528ca317e5f65ea6d813ae723733d",
+  "ml/test_experiment.py": "1f9f11027765673819d9e3e9a481359241f8cf4aeaac2ca55e7eef26b68b9000",
+  "ml/tests.log": "1efb04964064657144482f50c66b886152fa6fa79fd5b86ae5f2632d5acb601d"
+}

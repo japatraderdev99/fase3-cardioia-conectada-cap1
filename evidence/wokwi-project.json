@@ -1,0 +1,10 @@
+{
+  "url": "https://wokwi.com/projects/479273729983469569",
+  "saved": true,
+  "date": "2026-10-30",
+  "web_sketch_sha256": "fa027c795fa4cfdd34260b8e9f96409a5627303a2a67740f5fe419986adf5282",
+  "web_source": "sketch.ino with RingBuffer.h inlined and pragma once removed",
+  "web_libraries": "Wokwi Library Manager defaults: DHT sensor library, PubSubClient, Adafruit MPU6050; transitive libraries resolved by service. Exact resolved versions not captured. Local PlatformIO dependencies pinned separately.",
+  "session_id": "f0da5c87",
+  "evidence": "wokwi-final-serial.txt + wokwi-final-mqtt.jsonl + dashboard-wokwi-final.png"
+}

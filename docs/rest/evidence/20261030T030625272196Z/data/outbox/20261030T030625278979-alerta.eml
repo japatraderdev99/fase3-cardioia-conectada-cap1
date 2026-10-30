@@ -1,0 +1,22 @@
+From: cardioia@example.invalid
+To: equipe-simulada@example.invalid
+Subject: [SIMULACAO] Alerta CardioIA 20261030T030625278979-alerta
+X-CardioIA-Simulated: true
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+SIMULACAO EDUCACIONAL - nenhum envio SMTP.
+{
+  "sample": {
+    "sample_id": "20261030T030625278979-alerta",
+    "synthetic": true,
+    "timestamp": "2026-10-30T03:06:25.278977+00:00",
+    "bpm": 135,
+    "temperature_c": 39
+  },
+  "alerts": [
+    "bpm_acima_120",
+    "temperatura_acima_38"
+  ]
+}

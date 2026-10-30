@@ -1,0 +1,58 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+CardioIA SYNTHETIC session=51d7ccac capacity=2000 RAM=48012 bytes
+Commands: 0=offline, 1=online, s=queue status. RAM lost on reset.
+COLLECT seq=1 queued=1 dropped=0 sensor_error=0
+COLLECT seq=2 queued=2 dropped=0 sensor_error=0
+MQTT connect=0
+MQTT connect=1
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":1,"uptime_ms":1975,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":2,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":2,"uptime_ms":6979,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+COLLECT seq=3 queued=1 dropped=0 sensor_error=0
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":3,"uptime_ms":11985,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+COLLECT seq=4 queued=1 dropped=0 sensor_error=0
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":4,"uptime_ms":16990,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+COLLECT seq=5 queued=1 dropped=0 sensor_error=0
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":5,"uptime_ms":21996,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+COLLECT seq=6 queued=1 dropped=0 sensor_error=0
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":6,"uptime_ms":27002,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+SIMULATED_ONLINE=0
+COLLECT seq=7 queued=1 dropped=0 sensor_error=0
+COLLECT seq=8 queued=2 dropped=0 sensor_error=0
+COLLECT seq=9 queued=3 dropped=0 sensor_error=0
+COLLECT seq=10 queued=4 dropped=0 sensor_error=0
+COLLECT seq=11 queued=5 dropped=0 sensor_error=0
+COLLECT seq=12 queued=6 dropped=0 sensor_error=0
+QUEUE size=6 dropped=0
+COLLECT seq=13 queued=7 dropped=0 sensor_error=0
+SIMULATED_ONLINE=1
+MQTT connect=0
+COLLECT seq=14 queued=8 dropped=0 sensor_error=0
+COLLECT seq=15 queued=9 dropped=0 sensor_error=0
+MQTT connect=0
+MQTT connect=1
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":7,"uptime_ms":32011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":9,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":8,"uptime_ms":37011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":8,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":9,"uptime_ms":42011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":7,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":10,"uptime_ms":47011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":6,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":11,"uptime_ms":52011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":5,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":12,"uptime_ms":57011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":4,"dropped":0}
+COLLECT seq=16 queued=4 dropped=0 sensor_error=0
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":13,"uptime_ms":62011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":4,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":14,"uptime_ms":67011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":3,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":15,"uptime_ms":72011,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":2,"dropped":0}
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":16,"uptime_ms":77018,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+COLLECT seq=17 queued=1 dropped=0 sensor_error=0
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":17,"uptime_ms":82023,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+COLLECT seq=18 queued=1 dropped=0 sensor_error=0
+PUBLISH_QOS0 {"device_id":"cardioia-rm568506","session_id":"51d7ccac","synthetic":true,"seq":18,"uptime_ms":87029,"temperature":36.50,"humidity":45.00,"bpm":75,"acceleration":9.81,"sensor_error":false,"queued":1,"dropped":0}
+

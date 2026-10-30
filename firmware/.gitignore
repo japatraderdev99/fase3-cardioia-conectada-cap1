@@ -1,0 +1,5 @@
+.venv/
+.pio/
+evidence/test_ring
+
+evidence/test_ring_plain

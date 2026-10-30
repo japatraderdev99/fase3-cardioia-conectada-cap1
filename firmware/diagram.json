@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Guilherme Yamada Dantas - rm568506",
+  "editor": "wokwi",
+  "parts": [
+    {"type":"wokwi-esp32-devkit-v1","id":"esp","top":0,"left":0,"attrs":{}},
+    {"type":"wokwi-dht22","id":"dht","top":0,"left":200,"attrs":{"temperature":"36.5","humidity":"45"}},
+    {"type":"wokwi-mpu6050","id":"imu","top":160,"left":210,"attrs":{}},
+    {"type":"wokwi-potentiometer","id":"pot","top":-100,"left":200,"attrs":{"value":"256"}}
+  ],
+  "connections": [
+    ["esp:TX0","$serialMonitor:RX","",[]],
+    ["esp:RX0","$serialMonitor:TX","",[]],
+    ["dht:VCC","esp:3V3","red",[]],
+    ["dht:GND","esp:GND.1","black",[]],
+    ["dht:SDA","esp:D15","green",[]],
+    ["imu:VCC","esp:3V3","red",[]],
+    ["imu:GND","esp:GND.1","black",[]],
+    ["imu:SDA","esp:D21","green",[]],
+    ["imu:SCL","esp:D22","blue",[]],
+    ["pot:VCC","esp:3V3","red",[]],
+    ["pot:GND","esp:GND.1","black",[]],
+    ["pot:SIG","esp:D34","orange",[]]
+  ]
+}

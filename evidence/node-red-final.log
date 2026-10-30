@@ -1,0 +1,52 @@
+
+> cardioiaconectadacap1@1.0.0 dashboard
+> node node_modules/node-red/red.js --userDir dashboard --settings dashboard/settings.js
+
+30 Oct 00:11:21 - [info] 
+
+Welcome to Node-RED
+===================
+
+30 Oct 00:11:21 - [info] Node-RED version: v5.0.9-git
+30 Oct 00:11:21 - [info] Node.js  version: v22.17.1
+30 Oct 00:11:21 - [info] Darwin 25.6.0 arm64 LE
+30 Oct 00:11:21 - [info] Loading palette nodes
+30 Oct 00:11:21 - [info] Settings file  : /Users/gabrielcasarin/Documents/FIAP ANO 2 FASE 3/PROJETOS/CardioIAConectadaCap1/dashboard/settings.js
+30 Oct 00:11:21 - [info] Context store  : 'default' [module=memory]
+30 Oct 00:11:21 - [info] User directory : /Users/gabrielcasarin/Documents/FIAP ANO 2 FASE 3/PROJETOS/CardioIAConectadaCap1/dashboard
+30 Oct 00:11:21 - [warn] Projects disabled : editorTheme.projects.enabled=false
+30 Oct 00:11:21 - [info] Flows file     : /Users/gabrielcasarin/Documents/FIAP ANO 2 FASE 3/PROJETOS/CardioIAConectadaCap1/dashboard/flows.json
+30 Oct 00:11:21 - [warn] 
+
+---------------------------------------------------------------------
+Your flow credentials file is encrypted using a system-generated key.
+
+If the system-generated key is lost for any reason, your credentials
+file will not be recoverable, you will have to delete it and re-enter
+your credentials.
+
+You should set your own key using the 'credentialSecret' option in
+your settings file. Node-RED will then re-encrypt your credentials
+file using your chosen key the next time you deploy a change.
+---------------------------------------------------------------------
+
+30 Oct 00:11:21 - [warn] Encrypted credentials not found
+30 Oct 00:11:21 - [info] Server now running at http://127.0.0.1:1887/
+30 Oct 00:11:21 - [info] Starting flows
+30 Oct 00:11:21 - [info] [ui-base:CardioIA] Node-RED Dashboard 2.0 (v1.34.1) started at /dashboard
+30 Oct 00:11:21 - [info] [ui-base:CardioIA] Created socket.io server bound to Node-RED port at path /dashboard/socket.io
+30 Oct 00:11:21 - [info] Started flows
+30 Oct 00:11:22 - [info] [mqtt-broker:Broker didático configurável] Connected to broker: mqtt://broker.hivemq.com:1883
+30 Oct 00:13:15 - [info] [ui-base:CardioIA] Disconnected a6YnJPUXZxnF6SBRAAAA due to transport close
+30 Oct 00:13:32 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:34 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:36 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:38 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:40 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:42 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:44 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:47 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:13:49 - [warn] [function:Validar / deduplicar / classificar] telemetria inválida rejeitada
+30 Oct 00:14:00 - [info] Stopping flows
+30 Oct 00:14:01 - [info] [mqtt-broker:Broker didático configurável] Disconnected from broker: mqtt://broker.hivemq.com:1883
+30 Oct 00:14:01 - [info] Stopped flows

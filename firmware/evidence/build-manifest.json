@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-10-30T03:10:49.745714+00:00",
+  "firmware_compile": "PASS",
+  "host_buffer_test": "PASS without sanitizers",
+  "wokwi_execution": "not performed by firmware agent",
+  "ram_static_bytes": 93380,
+  "flash_bytes": 785065,
+  "sha256": {
+    "sketch.ino": "dbdbed44299ea168d63e9202c87fe68f44fb92a6680f5e14a27f91dc37ab7e87",
+    "RingBuffer.h": "3aa92cede0707c2b6aae77d23e2400620ef4407a72ed2e803184c869e92a7284",
+    "platformio.ini": "4add8dac66fa80c229e63c3801e6dd02b834e704cc0d84af05c5d21e66ea26a4",
+    "diagram.json": "6fd737a000a9417deeac104a2dbedfcdff38ffa7575a19794c307c2c619c5bb8",
+    "libraries.txt": "b0d0dbc99a02f5d1c0dbc587c343c76491d5185fd8b2a73c237656df78771408",
+    ".pio/build/esp32/firmware.bin": "51c6b9e04f47a1a8b534bf2010e4e45f4ea8d78071b34fe526fbb16c0e5de857",
+    ".pio/build/esp32/firmware.elf": "135724730640b2f75a7f3bade3ab85098d290496e7f767233e0df07d7fa6f304"
+  },
+  "revision_note": "Added age_ms to distinguish backlog from fresh samples; successful recompile."
+}

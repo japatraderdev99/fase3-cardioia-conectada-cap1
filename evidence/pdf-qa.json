@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "output/pdf/02-relatorio-mqtt.pdf": 2,
+    "output/pdf/04-relatorio-ia.pdf": 2,
+    "output/pdf/01-relatorio-edge.pdf": 2,
+    "output/pdf/03-relatorio-rest.pdf": 2
+  },
+  "all_pages_rendered_and_visually_reviewed": true,
+  "result": "PASS",
+  "notes": "Identifica\u00e7\u00e3o, refer\u00eancias, tabela IA e quebras de p\u00e1ginas verificadas. Render intermedi\u00e1rio em tmp/pdfs n\u00e3o publicado."
+}

@@ -1,0 +1,9 @@
+test_features_finite (test_experiment.ExperimentTests.test_features_finite) ... ok
+test_generator_reproducible_and_balanced (test_experiment.ExperimentTests.test_generator_reproducible_and_balanced) ... ok
+test_lif_silent_and_active (test_experiment.ExperimentTests.test_lif_silent_and_active) ... ok
+test_lif_state_does_not_leak_between_individuals (test_experiment.ExperimentTests.test_lif_state_does_not_leak_between_individuals) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.081s
+
+OK

@@ -1,0 +1,23 @@
+test_experiment (unittest.loader._FailedTest.test_experiment) ... ERROR
+
+======================================================================
+ERROR: test_experiment (unittest.loader._FailedTest.test_experiment)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_experiment
+Traceback (most recent call last):
+  File "/Users/gabrielcasarin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gabrielcasarin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/Users/gabrielcasarin/Documents/FIAP ANO 2 FASE 3/PROJETOS/CardioIAConectadaCap1/ml/test_experiment.py", line 3, in <module>
+    from experiment import generate, lif, statistics
+  File "/Users/gabrielcasarin/Documents/FIAP ANO 2 FASE 3/PROJETOS/CardioIAConectadaCap1/ml/experiment.py", line 5, in <module>
+    import sklearn
+ModuleNotFoundError: No module named 'sklearn'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
