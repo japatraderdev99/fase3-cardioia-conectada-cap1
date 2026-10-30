@@ -9,3 +9,5 @@
 - Implementação preparada com agentes de IA coordenados pelo Codex, revisão técnica e testes documentados. Não implica autoria humana exclusiva, revisão acadêmica, aceitação FIAP ou submissão.
 - Fontes técnicas: https://nodered.org/docs/getting-started/local ; https://dashboard.flowfuse.com/getting-started.html ; https://docs.wokwi.com/guides/esp32 ; https://docs.wokwi.com/diagram-format .
 - SHA-256 dos arquivos fonte acadêmicos em inventario-fontes.json. Arquivos originais, EnterpriseChallengeSPRINT1 e QUIZ preservados.
+
+- Captura 2026-10-30 às 00.22.18: rubrica recebida posteriormente, com cinco critérios de 2 pontos e exclusão de SPIFFS da pontuação em simuladores. Resolve a ausência anterior de pesos; original preservado no diretório PROJETOS, hash em inventario-fontes.json.
