@@ -76,7 +76,7 @@ Na distribuição sintética de teste (240 indivíduos), a logística obteve F1 
 
 ## Limitações e entrega
 
-Broker público sem TLS/autenticação: exclusivamente demonstração sintética. Editor local sem exposição pública. Avisos de dependências registrados em [npm-audit.json](evidence/npm-audit.json); não se declara prontidão para produção. Nenhum e-mail real enviado. Não há vídeo, submissão FIAP ou aprovação humana presumidos.
+Broker público sem TLS/autenticação: exclusivamente demonstração sintética. Editor local sem exposição pública. Avisos de dependências registrados em [npm-audit.json](evidence/npm-audit.json); não se declara prontidão para produção. Nenhum e-mail real enviado. A entrega no Portal do Aluno é realizada pelo responsável acadêmico.
 
 ## Histórico e atribuição
 

@@ -1,4 +1,4 @@
-# Roteiro — até quatro minutos (gravação pendente)
+# Roteiro — até quatro minutos
 
 - 0:00–0:25: identificação de Guilherme Yamada Dantas, rm568506, objetivo e aviso de dados sintéticos.
 - 0:25–1:00: mostrar séries, 1.200 indivíduos independentes e divisão 720/240/240; explicar que o alvo é o cenário gerador.
@@ -7,4 +7,4 @@
 - 2:35–3:15: mostrar testes e artefatos reproduzíveis. Explicar tempos em CPU e ausência de medição de energia.
 - 3:15–3:50: análise crítica: dados artificiais, uma semente, representações diferentes, sem validade clínica ou hardware neuromórfico. Encerrar com próximos passos.
 
-Após gravação humana: conferir duração final <=4 minutos, publicar como não listado e inserir a URL real no README principal. Este roteiro não comprova gravação ou publicação.
+Conferir duração final de até quatro minutos, publicar como não listado e inserir o link no README principal.

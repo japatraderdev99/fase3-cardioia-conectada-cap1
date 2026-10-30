@@ -1,7 +1,7 @@
 {
   "ml/.gitignore": "0a9471305a5999f385e2cf4d806f7092ab94e1eaf035b883884c2afa77700223",
   "ml/README.md": "a09660a6718bd8939148639b2f6a399f6eb579375cdf5aec70bc26d4b1f17759",
-  "ml/comparacao_logistica_lif.ipynb": "cea04534c3a41fb25e7a27abf3f9fee6ade8e370ca4ad11ed9e0b05dd210f0b5",
+  "ml/comparacao_logistica_lif.ipynb": "7a2d4e0eb897cb04ceb97cd3a19decd288bdfddaf78d89232decdc4a99ef9873",
   "ml/experiment.py": "137ef303036024e29b311b4e6da2a34b18d9f0754d48f3c9ebe8226cce7e996c",
   "ml/requirements.txt": "ca5a76b7c205577c98c34fea6c48385d205b3045fe0c7349d18deb5994dd1430",
   "ml/results/lif_spikes.png": "c595200f25331cf0f51c7b04c552392b7e074c44b5e4c01fe117aa6945092342",

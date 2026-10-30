@@ -17,3 +17,8 @@ tmp/
 
 !firmware/evidence/*.log
 rest/runtime/
+
+# Gravações e edições locais
+videos/
+*.mov
+*.mp4
