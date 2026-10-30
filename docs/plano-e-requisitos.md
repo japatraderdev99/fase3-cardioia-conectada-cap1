@@ -38,6 +38,6 @@ Template consultado: CaiqueFiap-2026/TEMPLATE-TIAO-2026, commit 53ced5ec91571e06
 | A2-01 | Ir Além solicitado | notebook, logística vs LIF/FHN | ml; notebook executado e métricas |
 | A2-02 | Ir Além solicitado | repo público + README | remoto já público; publicação código deve ser verificada |
 | A2-03 | Ir Além solicitado | relatório 2p | relatório IA |
-| A2-04 | Ir Além solicitado | vídeo <=4min não listado + README | roteiro; gravação humana e URL pendentes |
+| A2-04 | Ir Além solicitado | vídeo <=4min não listado + README | [vídeo não listado, 3min07s](https://youtu.be/uBMAaqeuFoI) |
 
 Ir Além é extensão opcional do enunciado, mas integra o escopo explicitamente solicitado. Dados exclusivamente sintéticos; DHT22 representa temperatura ambiental, não mede temperatura corporal clinicamente. Limiares são regras didáticas, não diagnóstico.

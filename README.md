@@ -23,7 +23,7 @@ Demonstrar captura → fila limitada no ESP32 → MQTT → dashboard Node-RED �
 | Ir Além 2 | [notebook executado](ml/comparacao_logistica_lif.ipynb), [métricas](ml/results/metrics.json); quatro testes |
 | Relatórios | [Edge](output/pdf/01-relatorio-edge.pdf), [MQTT](output/pdf/02-relatorio-mqtt.pdf), [REST](output/pdf/03-relatorio-rest.pdf), [IA](output/pdf/04-relatorio-ia.pdf) |
 | Link Wokwi | [Projeto público salvo](https://wokwi.com/projects/479273729983469569) — execução registrada separadamente |
-| Vídeo YouTube não listado, até 4 minutos | Pendente de gravação/publicação humana; [roteiro](docs/roteiro-demonstracao.md) |
+| Vídeo YouTube não listado, até 4 minutos | [Assistir à apresentação — 3min07s](https://youtu.be/uBMAaqeuFoI) |
 | Revisão humana e envio ao Portal do Aluno | Pendentes |
 
 Os testes MQTT citados usam publisher Node.js no computador; a execução ESP32/Wokwi tem evidências separadas. Consulte a [revisão final](docs/revisao-final.md) para o estado da simulação.
